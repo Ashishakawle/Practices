@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-08T16:18:38 IST" name="Default suite" finished-at="2023-02-08T16:19:02 IST" duration-ms="23873">
+    <groups>
+    </groups>
+    <test started-at="2023-02-08T16:18:38 IST" name="Default test" finished-at="2023-02-08T16:19:02 IST" duration-ms="23873">
+      <class name="Testsrc.com.HomeTest">
+        <test-method is-config="true" signature="test()[pri:0, instance:Testsrc.com.HomeTest@771a660]" started-at="2023-02-08T16:18:38 IST" name="test" finished-at="2023-02-08T16:18:38 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="Start()[pri:0, instance:Testsrc.com.HomeTest@771a660]" started-at="2023-02-08T16:18:38 IST" name="Start" finished-at="2023-02-08T16:18:58 IST" duration-ms="19688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method signature="login()[pri:0, instance:Testsrc.com.HomeTest@771a660]" started-at="2023-02-08T16:18:58 IST" name="login" finished-at="2023-02-08T16:19:02 IST" duration-ms="4122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testsrc.com.HomeTest@771a660]" started-at="2023-02-08T16:19:02 IST" name="teardown" finished-at="2023-02-08T16:19:02 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=HomeTest.login()[pri:0, instance:Testsrc.com.HomeTest@771a660] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="Closedb()[pri:0, instance:Testsrc.com.HomeTest@771a660]" started-at="2023-02-08T16:19:02 IST" name="Closedb" finished-at="2023-02-08T16:19:02 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closedb -->
+      </class> <!-- Testsrc.com.HomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
